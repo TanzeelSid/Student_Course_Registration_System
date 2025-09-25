@@ -94,7 +94,7 @@ public class Instructor extends Person {
             System.out.println("Course Assignments:");
             for (Course course : assignedCourses) {
                 System.out.println("  - " + course.getCourseCode() + ": " + course.getCourseName() + 
-                                 " (" + course.getCurrentEnrollment() + "/" + course.getMaxStudents() + " students)");
+                                " (" + course.getCurrentEnrollment() + "/" + course.getMaxStudents() + " students)");
             }
         }
         System.out.println("=========================");
